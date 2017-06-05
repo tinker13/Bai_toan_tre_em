@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C946A97E1EDFB29000130B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946A97D1EDFB29000130B21 /* AppDelegate.swift */; };
+		C946A9801EDFB29000130B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946A97F1EDFB29000130B21 /* ViewController.swift */; };
+		C946A9831EDFB29000130B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C946A9811EDFB29000130B21 /* Main.storyboard */; };
+		C946A9851EDFB29000130B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C946A9841EDFB29000130B21 /* Assets.xcassets */; };
+		C946A9881EDFB29000130B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C946A9861EDFB29000130B21 /* LaunchScreen.storyboard */; };
+		C946A9931EDFB29000130B21 /* demo_ToanTreEmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946A9921EDFB29000130B21 /* demo_ToanTreEmTests.swift */; };
+		C946A99E1EDFB29000130B21 /* demo_ToanTreEmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946A99D1EDFB29000130B21 /* demo_ToanTreEmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C946A98F1EDFB29000130B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C946A9721EDFB29000130B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C946A9791EDFB29000130B21;
+			remoteInfo = demo_ToanTreEm;
+		};
+		C946A99A1EDFB29000130B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C946A9721EDFB29000130B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C946A9791EDFB29000130B21;
+			remoteInfo = demo_ToanTreEm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C946A97A1EDFB29000130B21 /* demo_ToanTreEm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo_ToanTreEm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C946A97D1EDFB29000130B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C946A97F1EDFB29000130B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C946A9821EDFB29000130B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C946A9841EDFB29000130B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C946A9871EDFB29000130B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C946A9891EDFB29000130B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C946A98E1EDFB29000130B21 /* demo_ToanTreEmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo_ToanTreEmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C946A9921EDFB29000130B21 /* demo_ToanTreEmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_ToanTreEmTests.swift; sourceTree = "<group>"; };
+		C946A9941EDFB29000130B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C946A9991EDFB29000130B21 /* demo_ToanTreEmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo_ToanTreEmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C946A99D1EDFB29000130B21 /* demo_ToanTreEmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_ToanTreEmUITests.swift; sourceTree = "<group>"; };
+		C946A99F1EDFB29000130B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C946A9771EDFB29000130B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946A98B1EDFB29000130B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946A9961EDFB29000130B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C946A9711EDFB29000130B21 = {
+			isa = PBXGroup;
+			children = (
+				C946A97C1EDFB29000130B21 /* demo_ToanTreEm */,
+				C946A9911EDFB29000130B21 /* demo_ToanTreEmTests */,
+				C946A99C1EDFB29000130B21 /* demo_ToanTreEmUITests */,
+				C946A97B1EDFB29000130B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C946A97B1EDFB29000130B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C946A97A1EDFB29000130B21 /* demo_ToanTreEm.app */,
+				C946A98E1EDFB29000130B21 /* demo_ToanTreEmTests.xctest */,
+				C946A9991EDFB29000130B21 /* demo_ToanTreEmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C946A97C1EDFB29000130B21 /* demo_ToanTreEm */ = {
+			isa = PBXGroup;
+			children = (
+				C946A97D1EDFB29000130B21 /* AppDelegate.swift */,
+				C946A97F1EDFB29000130B21 /* ViewController.swift */,
+				C946A9811EDFB29000130B21 /* Main.storyboard */,
+				C946A9841EDFB29000130B21 /* Assets.xcassets */,
+				C946A9861EDFB29000130B21 /* LaunchScreen.storyboard */,
+				C946A9891EDFB29000130B21 /* Info.plist */,
+			);
+			path = demo_ToanTreEm;
+			sourceTree = "<group>";
+		};
+		C946A9911EDFB29000130B21 /* demo_ToanTreEmTests */ = {
+			isa = PBXGroup;
+			children = (
+				C946A9921EDFB29000130B21 /* demo_ToanTreEmTests.swift */,
+				C946A9941EDFB29000130B21 /* Info.plist */,
+			);
+			path = demo_ToanTreEmTests;
+			sourceTree = "<group>";
+		};
+		C946A99C1EDFB29000130B21 /* demo_ToanTreEmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C946A99D1EDFB29000130B21 /* demo_ToanTreEmUITests.swift */,
+				C946A99F1EDFB29000130B21 /* Info.plist */,
+			);
+			path = demo_ToanTreEmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C946A9791EDFB29000130B21 /* demo_ToanTreEm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C946A9A21EDFB29000130B21 /* Build configuration list for PBXNativeTarget "demo_ToanTreEm" */;
+			buildPhases = (
+				C946A9761EDFB29000130B21 /* Sources */,
+				C946A9771EDFB29000130B21 /* Frameworks */,
+				C946A9781EDFB29000130B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demo_ToanTreEm;
+			productName = demo_ToanTreEm;
+			productReference = C946A97A1EDFB29000130B21 /* demo_ToanTreEm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C946A98D1EDFB29000130B21 /* demo_ToanTreEmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C946A9A51EDFB29000130B21 /* Build configuration list for PBXNativeTarget "demo_ToanTreEmTests" */;
+			buildPhases = (
+				C946A98A1EDFB29000130B21 /* Sources */,
+				C946A98B1EDFB29000130B21 /* Frameworks */,
+				C946A98C1EDFB29000130B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C946A9901EDFB29000130B21 /* PBXTargetDependency */,
+			);
+			name = demo_ToanTreEmTests;
+			productName = demo_ToanTreEmTests;
+			productReference = C946A98E1EDFB29000130B21 /* demo_ToanTreEmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C946A9981EDFB29000130B21 /* demo_ToanTreEmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C946A9A81EDFB29000130B21 /* Build configuration list for PBXNativeTarget "demo_ToanTreEmUITests" */;
+			buildPhases = (
+				C946A9951EDFB29000130B21 /* Sources */,
+				C946A9961EDFB29000130B21 /* Frameworks */,
+				C946A9971EDFB29000130B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C946A99B1EDFB29000130B21 /* PBXTargetDependency */,
+			);
+			name = demo_ToanTreEmUITests;
+			productName = demo_ToanTreEmUITests;
+			productReference = C946A9991EDFB29000130B21 /* demo_ToanTreEmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C946A9721EDFB29000130B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hungtran;
+				TargetAttributes = {
+					C946A9791EDFB29000130B21 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C946A98D1EDFB29000130B21 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C946A9791EDFB29000130B21;
+					};
+					C946A9981EDFB29000130B21 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C946A9791EDFB29000130B21;
+					};
+				};
+			};
+			buildConfigurationList = C946A9751EDFB29000130B21 /* Build configuration list for PBXProject "demo_ToanTreEm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C946A9711EDFB29000130B21;
+			productRefGroup = C946A97B1EDFB29000130B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C946A9791EDFB29000130B21 /* demo_ToanTreEm */,
+				C946A98D1EDFB29000130B21 /* demo_ToanTreEmTests */,
+				C946A9981EDFB29000130B21 /* demo_ToanTreEmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C946A9781EDFB29000130B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C946A9881EDFB29000130B21 /* LaunchScreen.storyboard in Resources */,
+				C946A9851EDFB29000130B21 /* Assets.xcassets in Resources */,
+				C946A9831EDFB29000130B21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946A98C1EDFB29000130B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946A9971EDFB29000130B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C946A9761EDFB29000130B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C946A9801EDFB29000130B21 /* ViewController.swift in Sources */,
+				C946A97E1EDFB29000130B21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946A98A1EDFB29000130B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C946A9931EDFB29000130B21 /* demo_ToanTreEmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946A9951EDFB29000130B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C946A99E1EDFB29000130B21 /* demo_ToanTreEmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C946A9901EDFB29000130B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C946A9791EDFB29000130B21 /* demo_ToanTreEm */;
+			targetProxy = C946A98F1EDFB29000130B21 /* PBXContainerItemProxy */;
+		};
+		C946A99B1EDFB29000130B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C946A9791EDFB29000130B21 /* demo_ToanTreEm */;
+			targetProxy = C946A99A1EDFB29000130B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C946A9811EDFB29000130B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C946A9821EDFB29000130B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C946A9861EDFB29000130B21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C946A9871EDFB29000130B21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C946A9A01EDFB29000130B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C946A9A11EDFB29000130B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C946A9A31EDFB29000130B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = demo_ToanTreEm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hungtran.demo-ToanTreEm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C946A9A41EDFB29000130B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = demo_ToanTreEm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hungtran.demo-ToanTreEm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C946A9A61EDFB29000130B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = demo_ToanTreEmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hungtran.demo-ToanTreEmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo_ToanTreEm.app/demo_ToanTreEm";
+			};
+			name = Debug;
+		};
+		C946A9A71EDFB29000130B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = demo_ToanTreEmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hungtran.demo-ToanTreEmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo_ToanTreEm.app/demo_ToanTreEm";
+			};
+			name = Release;
+		};
+		C946A9A91EDFB29000130B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = demo_ToanTreEmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hungtran.demo-ToanTreEmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = demo_ToanTreEm;
+			};
+			name = Debug;
+		};
+		C946A9AA1EDFB29000130B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = demo_ToanTreEmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hungtran.demo-ToanTreEmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = demo_ToanTreEm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C946A9751EDFB29000130B21 /* Build configuration list for PBXProject "demo_ToanTreEm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C946A9A01EDFB29000130B21 /* Debug */,
+				C946A9A11EDFB29000130B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C946A9A21EDFB29000130B21 /* Build configuration list for PBXNativeTarget "demo_ToanTreEm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C946A9A31EDFB29000130B21 /* Debug */,
+				C946A9A41EDFB29000130B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C946A9A51EDFB29000130B21 /* Build configuration list for PBXNativeTarget "demo_ToanTreEmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C946A9A61EDFB29000130B21 /* Debug */,
+				C946A9A71EDFB29000130B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C946A9A81EDFB29000130B21 /* Build configuration list for PBXNativeTarget "demo_ToanTreEmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C946A9A91EDFB29000130B21 /* Debug */,
+				C946A9AA1EDFB29000130B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C946A9721EDFB29000130B21 /* Project object */;
+}
